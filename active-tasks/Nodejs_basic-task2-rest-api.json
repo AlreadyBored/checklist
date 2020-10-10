@@ -1,7 +1,7 @@
 {
     "taskName": "Nodejs_basic Task2 Express REST service",
     "github": "https://github.com/rolling-scopes-school/nodejs-course-template/blob/master/TASKS.md#task-2-express-rest-service",
-    "information": "Первый пункт кросс-чека — прибавить по 10 баллов за каждый проходящий тест. Дальнейшее проверяется ниже.",
+    "information": "<br><br><br><br>Первый пункт кросс-чека — прибавить по 10 баллов за каждый проходящий тест. Дальнейшее проверяется ниже.",
     "criteria": [
       {
         "type": "title",
