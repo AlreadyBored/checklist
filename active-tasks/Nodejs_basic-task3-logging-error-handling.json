@@ -44,7 +44,7 @@
     },
     {
       "type": "penalty",
-      "text": "Должны успешно проходить все тесты (перед проверкой тестов не забудьте в package.json заменить строку \"test\" на \"cross-env DEBUG=rs:* jest --testMatch \"<rootDir>/test/e2e/test/*.test.js\" --noStackTrace\")",
+      "text": "Поставьте \"Да\", если не все тесты проходят успешно (перед проверкой тестов не забудьте в package.json заменить строку \"test\" на \"cross-env DEBUG=rs:* jest --testMatch \"<rootDir>/test/e2e/test/*.test.js\" --noStackTrace --runInBand\")",
       "max": -10
     }
   ]
