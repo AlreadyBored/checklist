@@ -1,0 +1,103 @@
+{
+    "taskName": "Nodejs_basic Task3 Debug in Node.js",
+    "github": "https://github.com/rolling-scopes-school/basic-nodejs-2021Q2#task-3-debug-in-nodejs",
+    "information": "Обязательные ошибки для нахождения. Может быть найдено больше, но это обязательный список",
+    "criteria": [
+        {
+            "type": "title",
+            "title": "Ошибки компиляции приложения"
+        },
+        {
+            "type": "subtask",
+            "text": "Находится в:<br>usercontroller.js : line 1<br>Проблема:<br> 'express' не импортирован<br>Решение:<br><code>var router = require('express').Router()</code>",
+            "max": 6
+        },
+        {
+            "type": "subtask",
+            "text": "Находится в:<br>db.js : line 18<br>Проблема:<br>не экспортируется инстанс sequelize<br>Решение:<br><code>module.exports = sequelize</code>",
+            "max": 6
+        },
+        {
+            "type": "subtask",
+            "text": "Находится в:<br>game.js : line 1<br>Проблема:<br>не экспортируется модель<br>Решение:<br><code>module.exports = function(sequelize, DataTypes)</code>",
+            "max": 6
+        },
+        {
+            "type": "subtask",
+            "text": "Находится в:<br>gamecontroller.js : line 116<br>Проблема:<br>router не экспортируется корректно<br>Решение:<br><code>module.exports = router</code>",
+            "max": 6
+        },
+        {
+            "type": "subtask",
+            "text": "Находится в:<br>validate-session: line 2<br>Проблема:<br>происходит попытка импорта самой sequelize вместо ее инстанса<br>Решение:<br><code>var User = require('../db').import(//)</code>",
+            "max": 6
+        },
+        {
+            "type": "title",
+            "title": "Ошибки логики приложения"
+        },
+        {
+            "type": "subtask",
+            "text": "Находится в:<br>app.js : line 13<br>Проблема:<br>не передан порт при инициализации приложения<br>Решение:<br><code>app.listen(4000, function())</code>",
+            "max": 6
+        },
+        {
+            "type": "subtask",
+            "text": "Находится в:<br>app.js : line 9<br>Проблема:<br>неправильно используется body-parser<br>Решение:<br><code>app.use(require('body-parser').json())</code>",
+            "max": 6
+        },
+        {
+            "type": "subtask",
+            "text": "Находится в:<br>usercontroller.js : line 11<br>Проблема:<br>поле passwordHash написано как passwordhash<br>Решение:<br><code>passwordHash : bcrypt.hashSync</code>",
+            "max": 6
+        },
+        {
+            "type": "subtask",
+            "text": "Находится в:<br>gamecontroller.js : line 42<br>Проблема:<br>user.id - часть req, не req.body<br>Решение:<br><code>owner_id : req.user.id</code>",
+            "max": 6
+        },
+        {
+            "type": "subtask",
+            "text": "Находится в:<br>gamecontroller.js : line 9<br>Проблема:<br>в обработке результата Game.findAll в ответе в поле games нужно возвращать data <br>Решение:<br><code>games: data</code>",
+            "max": 6
+        },
+        {
+            "type": "title",
+            "title": "Рефакторинг"
+        },
+        {
+            "type": "subtask",
+            "text": "В части того, что можно отрефакторить — замена var на let/const, добавить точки с запятыми везде, где нужно, заменить анонимные функции стрелочными и т.д. За этот пункт можно поставить от 0 до 10 в зависимости от количества и качества рефакторинга на ваше усмотрение",
+            "max": 10
+        },
+        {
+            "type": "title",
+            "title": "Штрафы"
+        },
+        {
+            "type": "penalty",
+            "text": "Внесение изменений в репозиторий после дедлайна",
+            "max": -70
+        },
+        {
+            "type": "penalty",
+            "text": "Отсутствует отдельная ветка для разработки",
+            "max": -20
+        },
+        {
+            "type": "penalty",
+            "text": "Отсутствует <code>Pull Request</code>",
+            "max": -20
+        },
+        {
+            "type": "penalty",
+            "text": "Неполная информация в описании <code>Pull Request</code> (отсутствует либо некорректен один из 3 обязательных пунктов, также см. специальные требования по 3 пункту в кросс-чеке задания)",
+            "max": -10
+        },
+        {
+            "type": "penalty",
+            "text": "Меньше 3 коммитов в ветке разработки по сравнению с главной веткой",
+            "max": -20
+        }     
+    ]
+}
