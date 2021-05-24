@@ -9,27 +9,27 @@
         },
         {
             "type": "subtask",
-            "text": "Находится в:<br>usercontroller.js : line 1<br>Проблема:<br> 'express' не импортирован<br>Решение:<br><code>var router = require('express').Router()</code>",
+            "text": "Находится в:<br>usercontroller.js : line 1<br>Проблема:<br> 'express' не импортирован<br>Возможное решение:<br><code>var router = require('express').Router()</code>",
             "max": 6
         },
         {
             "type": "subtask",
-            "text": "Находится в:<br>db.js : line 18<br>Проблема:<br>не экспортируется инстанс sequelize<br>Решение:<br><code>module.exports = sequelize</code>",
+            "text": "Находится в:<br>db.js : line 18<br>Проблема:<br>не экспортируется инстанс sequelize<br>Возможное решение:<br><code>module.exports = sequelize</code>",
             "max": 6
         },
         {
             "type": "subtask",
-            "text": "Находится в:<br>game.js : line 1<br>Проблема:<br>не экспортируется модель<br>Решение:<br><code>module.exports = function(sequelize, DataTypes)</code>",
+            "text": "Находится в:<br>game.js : line 1<br>Проблема:<br>не экспортируется модель<br>Возможное решение:<br><code>module.exports = function(sequelize, DataTypes)</code>",
             "max": 6
         },
         {
             "type": "subtask",
-            "text": "Находится в:<br>gamecontroller.js : line 116<br>Проблема:<br>router не экспортируется корректно<br>Решение:<br><code>module.exports = router</code>",
+            "text": "Находится в:<br>gamecontroller.js : line 116<br>Проблема:<br>router не экспортируется корректно<br>Возможное решение:<br><code>module.exports = router</code>",
             "max": 6
         },
         {
             "type": "subtask",
-            "text": "Находится в:<br>validate-session: line 2<br>Проблема:<br>происходит попытка импорта самой sequelize вместо ее инстанса<br>Решение:<br><code>var User = require('../db').import(//)</code>",
+            "text": "Находится в:<br>validate-session: line 2<br>Проблема:<br>происходит попытка импорта самой sequelize вместо ее инстанса<br>Возможное решение:<br><code>var User = require('../db').import(//)</code>",
             "max": 6
         },
         {
@@ -38,27 +38,27 @@
         },
         {
             "type": "subtask",
-            "text": "Находится в:<br>app.js : line 13<br>Проблема:<br>не передан порт при инициализации приложения<br>Решение:<br><code>app.listen(4000, function())</code>",
+            "text": "Находится в:<br>app.js : line 13<br>Проблема:<br>не передан порт при инициализации приложения<br>Возможное решение:<br><code>app.listen(4000, function())</code>",
             "max": 6
         },
         {
             "type": "subtask",
-            "text": "Находится в:<br>app.js : line 9<br>Проблема:<br>неправильно используется body-parser<br>Решение:<br><code>app.use(require('body-parser').json())</code>",
+            "text": "Находится в:<br>app.js : line 9<br>Проблема:<br>неправильно используется body-parser<br>Возможное решение:<br><code>app.use(require('body-parser').json())</code>",
             "max": 6
         },
         {
             "type": "subtask",
-            "text": "Находится в:<br>usercontroller.js : line 11<br>Проблема:<br>поле passwordHash написано как passwordhash<br>Решение:<br><code>passwordHash : bcrypt.hashSync</code>",
+            "text": "Находится в:<br>usercontroller.js : line 11<br>Проблема:<br>поле passwordHash написано как passwordhash<br>Возможное решение:<br><code>passwordHash : bcrypt.hashSync</code>",
             "max": 6
         },
         {
             "type": "subtask",
-            "text": "Находится в:<br>gamecontroller.js : line 42<br>Проблема:<br>user.id - часть req, не req.body<br>Решение:<br><code>owner_id : req.user.id</code>",
+            "text": "Находится в:<br>gamecontroller.js : line 42<br>Проблема:<br>user.id - часть req, не req.body<br>Возможное решение:<br><code>owner_id : req.user.id</code>",
             "max": 6
         },
         {
             "type": "subtask",
-            "text": "Находится в:<br>gamecontroller.js : line 9<br>Проблема:<br>в обработке результата Game.findAll в ответе в поле games нужно возвращать data <br>Решение:<br><code>games: data</code>",
+            "text": "Находится в:<br>gamecontroller.js : line 9<br>Проблема:<br>в обработке результата Game.findAll в ответе в поле games нужно возвращать data <br>Возможное решение:<br><code>games: data</code>",
             "max": 6
         },
         {
