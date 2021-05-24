@@ -1,7 +1,7 @@
 {
     "taskName": "Nodejs_basic Task3 Debug in Node.js",
     "github": "https://github.com/rolling-scopes-school/basic-nodejs-2021Q2#task-3-debug-in-nodejs",
-    "information": "Обязательные ошибки для нахождения. Может быть найдено больше, но это обязательный список",
+    "information": "Обязательные ошибки для нахождения. Может быть найдено больше, но это обязательный список. НЕ ЗАБЫВАЙТЕ СМОТРЕТЬ КОД, ЧТОБЫ УВИДЕТЬ, ДЕЙСТВИТЕЛЬНО ЛИ ТАМ ИСПРАВЛЕНЫ ЭТИ ОШИБКИ.",
     "criteria": [
         {
             "type": "title",
