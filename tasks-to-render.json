@@ -3,5 +3,6 @@
   "1": "active-tasks/task2-express-rest-service.json",
   "2": "active-tasks/task3-debug-nodejs.json",
   "3": "active-tasks/task4-typescript-basics.json",
-  "4": "active-tasks/task5-logging-error-handling.json"
+  "4": "active-tasks/task5-logging-error-handling.json",
+  "5": "active-tasks/task6-docker-basics.json"
 }

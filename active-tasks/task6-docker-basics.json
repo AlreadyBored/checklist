@@ -1,0 +1,80 @@
+{
+    "taskName": "Nodejs_basic Task6 Docker basics",
+    "github": "https://github.com/rolling-scopes-school/basic-nodejs-2021Q2#task-6-docker-basics",
+    "information": "<a href=\"https://github.com/rolling-scopes-school/basic-nodejs-2021Q2/blob/master/cross-check/typescript-basics.md#%D0%BF%D0%BE%D0%B4%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8\">Как увидеть различия</a> между папками <code>test</code> и <code>.github</code> между текущей веткой и веткой master из темплейта",
+    "criteria": [
+        {
+            "type": "title",
+            "title": "Реализация"
+        },
+        {
+            "type": "subtask",
+            "text": "Наличие в Readme.md секции с инструкцией как запустить приложение",
+            "max": 20
+        },
+        {
+            "type": "subtask",
+            "text": "Используется user-defined bridge",
+            "max": 30
+        },
+        {
+            "type": "subtask",
+            "text": "При возникновении ошибки контейнер перезапускается автоматически",
+            "max": 30
+        },
+        {
+            "type": "subtask",
+            "text": "Логи и файлы базы данных хранятся в volumes, а не в контейнере",
+            "max": 30
+        },
+        {
+            "type": "title",
+            "title": "Штрафы"
+        },
+        {
+            "type": "penalty",
+            "text": "Внесение изменений в репозиторий после дедлайна не считая коммиты, вносящие изменения только в <code>Readme.md</code> и другую документацию) минус 30% от максимального балла за задание (для этого задания 33 балла)",
+            "max": -33
+        },
+        {
+            "type": "penalty",
+            "text": "Отсутствует отдельная ветка для разработки",
+            "max": -20
+        },
+        {
+            "type": "penalty",
+            "text": "Отсутствует Pull Request",
+            "max": -20
+        },
+        {
+            "type": "penalty",
+            "text": "Неполная информация в описании Pull Request (отсутствует либо некорректен один из 3 обязательных пунктов). NB! Не учитываем отсутствие в описании штрафа за непрошедший тест или штрафа за ошибки компиляции",
+            "max": -10
+        },
+        {
+            "type": "penalty",
+            "text": "Используется default bridge network driver",
+            "max": -20
+        },
+        {
+            "type": "penalty",
+            "text": "Конфигурация приложения жестко прописана в docker-compose.yml и Dockerfile",
+            "max": -20
+        },
+        {
+            "type": "penalty",
+            "text": "При изменении файлов в папке src приложение не перезапускается",
+            "max": -20
+        },
+        {
+            "type": "penalty",
+            "text": "Должен использоваться специфичный образ. (Например postgres и node, а не ububtu с установкой node или postgres)",
+            "max": -20
+        },
+        {
+            "type": "penalty",
+            "text": "Postgress image не указана как зависимость для node image",
+            "max": -20
+        }
+    ]
+}
